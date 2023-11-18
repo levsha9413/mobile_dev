@@ -2,7 +2,14 @@
 
 using ConsoleApplication;
 
+class Program
+{
 
+    static void Main()
+    {
+        Game vv = new Game();
+        vv.Start();
+    }
 
-Game vv = new Game();
-vv.Start();
+}
+
